@@ -1,0 +1,347 @@
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #101935;
+  }
+/* Style the navigation bar links */
+.navbar a {
+float:left ;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+/* for error masseges */
+
+  
+#usermsg, #idmsg,
+#phonemsg, #passmsg,
+#confmessage {
+  float: right;
+  margin-right: 50em;
+  color: red;
+}
+
+/* row and col for all forms*/
+.forms-row {
+    padding-right: 6em;
+  }
+  
+  .col-1 {
+    float: left;
+    text-align: left;
+    width: 20%;
+    margin-top: 0.75em;
+    display: inline-block;
+    color: seashell;
+  }
+  
+  .col-2 {
+    float: left;
+    text-align: left;
+    width: 90%;
+    margin-top: 0.375em;
+  }
+  
+ 
+
+  
+/*singin and modal singin*/
+.modal-content, .sign-form {
+    text-align: center;
+    border: 0.063em solid #101935;
+    border-radius: 2em;
+    padding: 1em 0 1em 0;
+  }
+  
+  .sign-form .row, .modal-content .row {
+    padding-right: 4em;
+    line-height: 3;
+  }
+  
+  .sign-form .col-1, .modal-content .col-1 {
+    width: 100%;
+  }
+  
+  
+  
+  /*row and col for orders and goals*/
+.row{
+    text-align: center;
+  }
+  .row-2 {
+    text-align: right;
+  }
+  
+  .row:after,.row-2:after,.forms-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .col {
+    margin: 0 1em;
+    display: inline-table;
+  }
+
+  .button {
+    font-size: 1em;
+    background-color: #101935;
+    border: none;
+    border-radius: 3em;
+    box-shadow: 0.06em 0.06em #D7D7D7;
+    padding: 0.625em 2em;
+    color: white;
+  }
+
+
+/* Q.html */
+
+body{
+	background-image:url(pc5.jpg);
+	background-attachment:fixed;
+    /* background-repeat: no-repeat;
+  background-size: cover; */
+  
+}
+
+.centeral-heading {
+  
+    text-align: center;
+    color: seashell;
+    /* margin-left: 0.8em; */
+}
+.card-header{
+    text-align: left;
+    /* margin-left: 0.8em; */
+    font-size: 1.5em;
+    color: #ac80a4;
+    background: #9b7794;
+    
+}
+
+  /*
+  footer*
+  *
+  */
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+  * {
+    font-family: Roboto;
+  }
+  
+  .footer-distributed{
+      background: #DBCBD8;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      font: bold 16px sans-serif;
+      text-align: left;
+      padding: 50px 60px 40px;
+      overflow: hidden;
+  }
+  
+  section {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+      float: left;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+      color:  #ffffff;
+      font: normal 36px 'Roboto', cursive;
+      margin: 0 0 10px;
+  }
+  
+  .footer-distributed h3 span{
+      color:  #101935;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+      color:  #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+      color:  #8f9296;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  /* Footer social icons */
+  
+  .footer-distributed .footer-icons{
+      margin-top: 40px;
+  }
+  
+  .footer-distributed .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+  
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+      float: right;
+  }
+  
+  .footer-distributed .footer-right p{
+      display: inline-block;
+      vertical-align: top;
+      margin: 15px 42px 0 0;
+      color: #ffffff;
+  }
+  
+  /* The contact form */
+  
+  .footer-distributed form{
+      display: inline-block;
+  }
+  
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+      display: block;
+      border-radius: 3px;
+      box-sizing: border-box;
+      background-color:  #F2FDFF;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+  
+      font: inherit;
+      font-size: 14px;
+      font-weight: normal;
+      color:  #d1d2d2;
+  
+      width: 400px;
+      padding: 18px;
+  }
+  
+  .footer-distributed ::-webkit-input-placeholder {
+      color:  #5c666b;
+  }
+  
+  .footer-distributed ::-moz-placeholder {
+      color:  #5c666b;
+      opacity: 1;
+  }
+  
+  .footer-distributed :-ms-input-placeholder{
+      color:  #101935;
+  }
+  
+  
+  .footer-distributed form input{
+      height: 55px;
+      margin-bottom: 15px;
+  }
+  
+  .footer-distributed form textarea{
+      height: 100px;
+      margin-bottom: 20px;
+  }
+  
+  .footer-distributed form button{
+      border-radius: 3px;
+      background-color:  #101935;
+      color: #ffffff;
+      border: 0;
+      padding: 15px 50px;
+      font-weight: bold;
+      float: right;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 1000px) {
+  
+      .footer-distributed {
+          font: bold 14px sans-serif;
+      }
+  
+      .footer-distributed .footer-company-name{
+          font-size: 12px;
+      }
+  
+      .footer-distributed form input,
+      .footer-distributed form textarea{
+          width: 250px;
+      }
+  
+      .footer-distributed form button{
+          padding: 10px 35px;
+      }
+  
+  }
+  
+  @media (max-width: 800px) {
+  
+      .footer-distributed{
+          padding: 30px;
+      }
+  
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-right{
+          float: none;
+          max-width: 300px;
+          margin: 0 auto;
+      }
+  
+      .footer-distributed .footer-left{
+          margin-bottom: 40px;
+      }
+  
+      .footer-distributed form{
+          margin-top: 30px;
+      }
+  
+      .footer-distributed form{
+          display: block;
+      }
+  
+      .footer-distributed form button{
+          float: none;
+      }
+  }
+  
+  
